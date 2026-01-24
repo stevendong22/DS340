@@ -77,6 +77,7 @@ parso==0.8.3
 pexpect==4.9.0
 Pillow==10.1.0
 prompt-toolkit==3.0.43
+protobuf>=5.26.1
 proto-plus>=1.26.1
 ptyprocess==0.7.0
 pure-eval==0.2.2
@@ -104,8 +105,8 @@ stack-data==0.6.3
 sympy==1.12
 tensorboard==2.14.1
 tensorboard-data-server==0.7.2
-tensorflow==2.14.0
-tensorflow-intel==2.14.0
+tensorflow==2.15.0
+tensorflow-intel==2.15.0
 tensorflow-estimator==2.14.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
@@ -124,3 +125,4 @@ Werkzeug==3.0.1
 widgetsnbextension==4.0.9
 wrapt==1.14.1
 xgboost==2.1.1
+
