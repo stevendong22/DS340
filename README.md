@@ -13,11 +13,11 @@ Neighbor (CkNN) and General Regression Neural Network (GRNN),
 they struggle with imbalanced data and result in underperformance.
 Leveraging advancements in sensor technology and machine learning,
 we propose a non-invasive diabetes diagnosis using a Back Propagation
-Neural Network (BPNN) with batch normalization, incorporating data
+Neural Network (BPNN) with batch normalization and XGBoost for feature normalization, incorporating data
 re-sampling and normalization for class balancing. Our method addresses
 existing challenges such as limited performance associated with traditional machine learning. Experimental results on three datasets show
 significant improvements in overall accuracy, sensitivity, and specificity
-compared to traditional methods. Notably, we achieve accuracies of **89.81%**
+compared to traditional methods. Notably, we achieve accuracies of **90%**
 in Pima diabetes dataset, **75.49%** in CDC BRFSS2015 dataset, and
 **95.28%** in Mesra Diabetes dataset. This underscores the potential of advanced deep learning models, including Transformers, for robust diabetes
 diagnosis._
@@ -29,7 +29,7 @@ diagnosis._
 
 ## Code
 
-See [main.ipynb](https://github.com/steve-zeyu-zhang/DiabetesDiagnosis/blob/main/main.ipynb)
+See [main_new.ipynb]. To get started, you must open up the file and install everything in requirements.txt. Do not forget to install scikeras, otherwise the code will not work. From there, run all of the blocks and watch the magin unravel.
 
 ## Citation
 
